@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    
+  }
+ 
+  .imgbckgrnd{
+    height: 80vh;
+    
+    background-image: url('images/gta_decors_5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  header {
+    background-color: #3a3a3a;
+    height: 50px;
+    position: relative; /* Permet de positionner l'image à l'intérieur */
+  }
+  
+  nav::after {
+    content: "";
+    display: block;
+    width: 50px; /* Largeur de l'image */
+    height: 50px; /* Hauteur de l'image */
+    background-image: url('../assets/images/AvatarF.png'); /* URL de votre image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 50%; /* Ajustez la position verticale si nécessaire */
+    right: 0; /* Ajustez la position horizontale si nécessaire */
+    transform: translateY(-50%); /* Centrez verticalement l'image */
+  }
+  nav ul {
+   justify-content : space-around;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #e3e3e3;
+  }
+  
+  .hero {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero h1 {
+    font-size: 72px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .hero a {
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+  }
+  
+  .scroll-section {
+    height: 500px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  @media screen {
+    
+  }
